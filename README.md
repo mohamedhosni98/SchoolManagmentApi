@@ -1,24 +1,24 @@
-# 🏫 School Management API
+# School Management API
 
 A clean, modular, and high-performance RESTful API for managing school data (students, classes, enrollments, and marks), built with **.NET 8**, **FastEndpoints**, and **Entity Framework Core**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🧑‍🎓 Student and Class Management
-- 📝 Enrollment and Mark Tracking
-- 📦 Clean Architecture (Layered structure)
-- ⚡ High performance using [FastEndpoints](https://fast-endpoints.com/)
-- 🔐 JWT Authentication Ready *(optional)*
-- 🎯 Entity Framework Core 8 + SQL Server
-- 🧪 Easy Unit Testing and Extensibility
-- 🧵 Global Error Handling Middleware
-- 📄 OpenAPI/Swagger UI Documentation
+ Student and Class Management
+-  Enrollment and Mark Tracking
+-  Clean Architecture (Layered structure)
+-  High performance using [FastEndpoints](https://fast-endpoints.com/)
+-  JWT Authentication Ready *(optional)*
+-  Entity Framework Core 8 + SQL Server
+-  Easy Unit Testing and Extensibility
+-  Global Error Handling Middleware
+- OpenAPI/Swagger UI Documentation
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 managment_api/
@@ -35,7 +35,7 @@ managment_api/
 └── README.md            # You're here
 
 
-🛠️ Technologies Used
+## Technologies Used
 .NET 8
 
 FastEndpoints
@@ -48,7 +48,7 @@ Swagger (OpenAPI)
 
 C#
 
-🧪 Getting Started
+ Getting Started
 1. Clone the repo
 bash
 نسخ
@@ -71,20 +71,4 @@ dotnet ef database update
 bash
 نسخ
 تحرير
-dotnet run
-Navigate to https://localhost:{port}/swagger to test endpoints.
 
-📌 Sample Endpoints
-GET /api/students
-
-POST /api/students
-
-DELETE /api/classes/{id}
-
-GET /api/enrollments/{studentId}
-
-📄 License
-This project is licensed under the MIT License.
-
-💬 Contributing
-Feel free to open issues, suggest features or submit pull requests.
